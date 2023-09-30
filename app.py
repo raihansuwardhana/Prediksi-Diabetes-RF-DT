@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 import seaborn as sns
 
 # URL raw dataset di GitHub
-url = 'https://github.com/raihansuwardhana/Prediksi-Diabetes-RF-DT/blob/main/diabetes.csv'
+url = 'https://raw.githubusercontent.com/raihansuwardhana/Prediksi-Diabetes-RF-DT/main/diabetes.csv'
 
 # Membaca dataset dari URL
 df = pd.read_csv(url)
