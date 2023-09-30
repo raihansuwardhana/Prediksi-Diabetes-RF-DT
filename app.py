@@ -11,8 +11,11 @@ from sklearn.tree import DecisionTreeClassifier  # Tambahkan import untuk Decisi
 from sklearn.model_selection import train_test_split
 import seaborn as sns
 
-# Load dataset
-df = pd.read_csv(r'C:\Users\Talitha\Downloads\diabetes_prediction-master\tesss\diabetes_prediction-master\diabetes.csv') #samakan dengan letak direktori dataset (yang berada satu paket dengan letak app.py)
+# URL raw dataset di GitHub
+url = 'https://github.com/raihansuwardhana/Prediksi-Diabetes-RF-DT/blob/main/diabetes.csv'
+
+# Membaca dataset dari URL
+df = pd.read_csv(url)
 
 # HEADINGS
 st.title('Diabetes Checkup')
